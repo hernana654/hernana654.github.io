@@ -1,0 +1,162 @@
+@font-face {
+  font-family: 'Gill';
+  url:('../assets/GillSans.ttc') format('truetype');
+}
+
+body {
+  align-content: center;
+  align-items: center;
+  background-color: grey;
+  display: flex;
+  flex: auto;
+  flex-direction: column;
+  margin: 0;
+  overflow-x: hidden;
+  padding: 5px;
+  width: 100%;
+}
+
+img {
+  border-style: groove;
+  box-shadow: 2px 2px 5px;
+  display: flex;
+  flex-grow: 100;
+  margin: 10px;;
+  padding: 10px;
+  width: 500px;
+}
+
+p {
+font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+}
+
+#main {
+  align-content: center;
+  align-items: center;
+  display: flex;
+  flex: auto;
+  flex-direction: column;
+  margin: 0;
+  overflow-x: hidden;
+  padding: 5px;
+  width: 100%;
+  z-index: -10;
+  color: green;
+}
+
+#p1La {
+  border-style: groove;
+  box-shadow: 2px 2px 5px;
+  font-size: 40px;
+  margin-top: 5px;
+  padding:5px;
+  width: 400px;
+  z-index: 1;
+}
+
+#p1Lb {
+  font-size: 24px;
+  padding:5px;
+  z-index: 1;
+}
+
+#p2L {
+  font-size: 24px;
+  padding:5px;
+  z-index: 1;
+}
+
+#p3L {
+  font-size: 24px;
+  padding:5px;
+  z-index: 1;
+}
+
+#p4L {
+  font-size: 24px;
+  padding:5px;
+  z-index: 1;
+}
+
+#p5L {
+  font-size: 24px;
+  padding:5px;
+  z-index: 1;
+}
+
+#p6L{
+  font-size: 24px;
+  padding:5px;
+  z-index: 1;
+}
+
+#hello {
+  align-content: space-around;
+  border-style: groove;
+  box-shadow: 2px 2px 5px;
+  background-color: white;
+  display: flex;
+  font-size: 50px;
+  font-stretch: expanded;
+  font-style: normal;
+  justify-content: center;
+  margin: 10;
+  padding: 0;
+  width: 50px;
+}
+
+#img1 {
+  align-content: center;
+  display: center;
+  justify-content: center;
+  margin: 0;
+  width: 200px;
+  length : 100px;
+}
+
+#img2 {
+  align-content: center;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  margin: 0;
+  width: 1000px;
+}
+
+#img3 {
+  align-content: center;
+  display: flex;
+  flex-direction: row;
+  height: 500px;
+}
+
+#wedding {
+  align-content: center;
+  display: flex;
+  height:500px;
+}
+
+#img5 {}
+
+#img6 {}
+
+#img7 {}
+
+#img8 {
+  alight-content: center;
+  flex-direction: row;
+  widht: 700px;
+}
+
+#sketch-holder {
+  display: flex;
+  padding: 0;
+  width: 100%;
+}
+
+p.letter {
+  background-color: yellow;
+  margin: 5px;
+}
