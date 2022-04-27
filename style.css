@@ -1,7 +1,18 @@
-html, body {
+{
   margin: 0;
   padding: 0;
 }
-canvas {
-  display: block;
+body
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: radial-gradient(#B7FF6B,#B6D930);
+
+}
+
+.logo2{
+  justify-content: flex-start;
+  align-items: center;
 }
